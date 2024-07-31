@@ -50,17 +50,22 @@ Tecnologias utilizadas:
 ### Passos para instalação
 
 1. Clone o repositório:
-git clone https://github.com/Brayham-Carvalho/nome-do-repositorio.git
+```sh
+git clone https://github.com/Brayham-Carvalho/api-restful.git
+```
 
-2. Instale as dependências do backend:
-cd app_server
+3. Instale as dependências do backend:
+```sh
+cd api
+```
+5. Configure o banco de dados MySQL no arquivo `app.module.ts`.
 
-3. Configure o banco de dados MySQL no arquivo `app.module.ts`.
-
-4. Inicie o servidor backend:
+6. Inicie o servidor backend:
+```sh
 npm run start
+```
 
-5. Abra o arquivo `index.html` da pasta `web` em um navegador web.
+8. Abra o arquivo `index.html` da pasta `web` em um navegador web.
 
 ## Uso
 
